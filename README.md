@@ -25,7 +25,7 @@ Rules:
 
 ## 3. Custom plant
 
-#Fern! 
+Fern! 
 <p> 
 (This was a bit simple) 
 
@@ -52,7 +52,7 @@ Iteration 5:
 
 </p>
 
-#Japanese Woodblock Print Inspired Trees 
+Japanese Woodblock Print Inspired Trees 
 <p> 
 
 <code> Axiom: FX, Angle 30 </code>

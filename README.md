@@ -24,47 +24,60 @@ Rules:
 </p>
 
 ## 3. Custom plant
-Choose a plant in the world. Working off a reference, design a grammar that mimics the structure of that plant. Unlike our simple puzzles, please use multiple rules for greater complexity. Think carefully about the structure of your grammar! EXPLAIN the structure of your plant in the README. What are the components? What do each of the rules do? Be sure to also include images of a few iterations of your output plant. 
 
-<p>
-  Kelp (at iter: 4)
-  
-  <img src=""/>
+#Fern! 
+<p> 
+(This was a bit simple) 
 
-Axiom is FX. So, F is done first; then, the X rule happens on top. 
+<code> Axiom: F, Angle 45 </code>
 
+This draws the F rule. 
 
-Rule 1: It starts by drawing a forward line, then the angle is shifted by 10, and the state is saved. Inside the brackets, the angle is shifted, and a line is drawn; then, the angle is shifted again, and a line is drawn. The angle is shifted in the opposite direction, and a line is drawn (this happens twice). Then we go back to the old state and shift the angle in the negative direction, then draw once more, and then the angle is shifted with the state being saved. Inside the saved state, the angle is shifted once and drawn twice (so it looks longer). Finally, we go back to the old state, draw a line, and add a rotation to the end of it. 
+<code> Rule1: F=G[C1-F][C1+F]G[C2-F][C2+F]G[C3-F][C3+F]GF </code>
 
-will adjust above for readability
+This rule creates the stem and the branching out part of the fern. I decided to make 3 branches-if there were more I ran out of memory : ( (And it adds some colors based on what level is drawn!) 
 
-Since all the angle shifts and new line drawings only happen on the right side, the little kelp forest is aligned towards the right (similar to real-life kelp forests- or at least similar to my image reference). 
+<code> Rule2: G=GG </code>
 
-Rule 2: This just draws two lines going up. So, in iteration one, the top looks taller. 
+This rule extends the 'G' portions by a factor of two - thus creating some degree of separation.
 
-In all honesty, I got this by messing around and trying stuff out. The second rule is rather simple here since I wanted larger stems—like how kelp forests look. The actual 'leaves' are constructed with rule 1.
+Iteration 1: 
+<img src="" /> 
 
-  <img src=""/>
+Iteration 3: 
+<img src="" /> 
+
+Iteration 5: 
+<img src="" /> 
+
 </p>
 
+#Japanese Woodblock Print Inspired Trees 
+<p> 
 
-<p>
-  Pine Branch (at iter: 4)
-  
-  <img src=""/>
+While I was studying printmaking as an undergrad, I always admired woodblock prints—mainly because of how beautifully the shapes are carved out. 
 
-Since my first plant had a pretty simple Rule 2, I tried to go for a more complicated one and ended up with a pine needle-looking thing. 
+<code> Axiom: FX, Angle 30 </code>
 
-Axiom is FX. So, F is done first; then, the X rule happens on top. 
+This draws the F rule and then the X on top. 
 
+<code> Rule1: F=FF-[-FF-FF+FF+F]+F-[-FFF]F+ </code>
 
-Rule 1: I used the previous Rule 1 as a base and added different angle shifts so the plant branches off in both the left and right directions. (As seen in iter 1) 
+This rule creates two branches: one that's more crooked and one that's a straight line. It also extends the trunk.
 
-Rule 2: will add
+<code> Rule2: X=FF-[-F]+[+F] </code>
 
-I got this by messing around and trying stuff out, in all honesty. The second rule is rather simple here since I wanted larger stems - like how kelp forests look. And the actual 'leaves' are constructed with rule 1.
+This rule creates a Y-like shape on top of the ending of the previous rule. This spaces out the branches of the tree more and creates a more abstract/random effect. (Which makes the tree look more natural and it has a similar shape as you would see in wood block prints : ) 
 
-  <img src=""/>
+Iteration 1: 
+<img src="" /> 
+
+Iteration 3: 
+<img src="" /> 
+
+Iteration 5: 
+<img src="" /> 
+
 </p>
 
 ## Submission

@@ -42,20 +42,18 @@ This rule creates the stem and the branching out part of the fern. I decided to 
 This rule extends the 'G' portions by a factor of two - thus creating some degree of separation.
 
 Iteration 1: 
-<img src="" /> 
+<img src="https://github.com/thumun/lab03-grammars/blob/main/fern1.png?raw=true" /> 
 
 Iteration 3: 
-<img src="" /> 
+<img src="https://github.com/thumun/lab03-grammars/blob/main/fern3.png?raw=true" /> 
 
 Iteration 5: 
-<img src="" /> 
+<img src="https://github.com/thumun/lab03-grammars/blob/main/fern5.png?raw=true" /> 
 
 </p>
 
 #Japanese Woodblock Print Inspired Trees 
 <p> 
-
-While I was studying printmaking as an undergrad, I always admired woodblock prints—mainly because of how beautifully the shapes are carved out. 
 
 <code> Axiom: FX, Angle 30 </code>
 
@@ -70,13 +68,13 @@ This rule creates two branches: one that's more crooked and one that's a straigh
 This rule creates a Y-like shape on top of the ending of the previous rule. This spaces out the branches of the tree more and creates a more abstract/random effect. (Which makes the tree look more natural and it has a similar shape as you would see in wood block prints : ) 
 
 Iteration 1: 
-<img src="" /> 
+<img src="https://github.com/thumun/lab03-grammars/blob/main/wood1.png?raw=true" /> 
 
 Iteration 3: 
-<img src="" /> 
+<img src="https://github.com/thumun/lab03-grammars/blob/main/wood3.png?raw=true" /> 
 
 Iteration 5: 
-<img src="" /> 
+<img src="https://github.com/thumun/lab03-grammars/blob/main/wood5.png?raw=true" /> 
 
 </p>
 
